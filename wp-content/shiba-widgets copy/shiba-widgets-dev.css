@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.multi-column-div {  width:100%; }
+.multi-column-div .inner .widget {  overflow:hidden; float:left; }   
+.multi-column-div .inner .widget ul { width:85%; overflow:hidden; list-style-position: inside; }
+.multi-column-div .inner .widget ul li { float:none; }
+
+.multi-column-border { width:100%; } 
+.multi-column-border .bottom-border { border-top-style: double; border-top-width:3px; float:left; }
